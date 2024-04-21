@@ -68,7 +68,7 @@
             $reset == 1
               ? 0 :
             $valid == 0
-               ? $out :
+               ? >>1$out :
             $op == 0
               ? $sum :
             $op == 1
