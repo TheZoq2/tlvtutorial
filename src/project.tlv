@@ -43,8 +43,9 @@
 
 \TLV calc()
    
-   
    |calc
+      @0
+         $reset = *reset;
       @1
          //...
 
